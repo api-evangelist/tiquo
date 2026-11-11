@@ -1,4 +1,4 @@
-# Tiquo
+# Tiquo Hospitality
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,127 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Tiquo is a company surfaced via the API Evangelist harvest backlog (source: new-submission) and added to the network as a stub for full-pipeline profiling.
-- https://www.tiquo.co
+Tiquo provides an operating platform that combines point‑of‑sale, bookings, payments, memberships, marketing, forms, and analytics into a single system. It is aimed at hospitality operators—including hotels, restaurants, spas, gyms, and event venues—of any size, from small businesses to enterprise chains, to manage multi‑location operations and customer data.
+
+**Areas:** POS · Bookings · Payments · Memberships · Marketing · Hospitality Software · Multi‑location Management · Analytics
+
+## Tiquo Hospitality on APIs.io
+
+Everything profiled for Tiquo Hospitality is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/tiquo/](https://apis.io/providers/tiquo/)** — or go straight to one of the APIs or properties below.
+
+### APIs (1)
+
+- [Tiquo Hospitality API](https://apis.io/apis/tiquo/tiquo-api/) — Tiquo Hospitality API as documented publicly: 40 operations. Contract generated from the documentation by API Evangelist (2026-11-11); not the provider's…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [GetApiV1CustomersCust000001Response](https://apis.io/schemas/tiquo/tiquo-get-api-v1-customers-cust000001-response/)
+- [PatchCompaniesCompanyidRequest](https://apis.io/schemas/tiquo/tiquo-patch-companies-companyid-request/)
+- [PatchCustomersCustomeridRequest](https://apis.io/schemas/tiquo/tiquo-patch-customers-customerid-request/)
+- [PostCompaniesRequest](https://apis.io/schemas/tiquo/tiquo-post-companies-request/)
+- [PostCustomersRequest](https://apis.io/schemas/tiquo/tiquo-post-customers-request/)
+- [PostOrdersRequest](https://apis.io/schemas/tiquo/tiquo-post-orders-request/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Tiquo Context](https://apis.io/jsonld/tiquo/tiquo-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Tiquo Hospitality API Rules](https://apis.io/rules/tiquo/tiquo-rules/)
+
+#### Security (4)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Tiquo Hospitality Authentication](https://apis.io/security/tiquo/tiquo-authentication/)
+- [Tiquo Hospitality Domain Security](https://apis.io/security/tiquo/tiquo-domain-security/)
+- [Tiquo Hospitality Trust Center](https://apis.io/security/tiquo/tiquo-trust-center/)
+- [Tiquo Hospitality Vulnerability Disclosure](https://apis.io/security/tiquo/tiquo-vulnerability-disclosure/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Tiquo Hospitality Plans Pricing](https://apis.io/plans/tiquo/tiquo-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.tiquo.co)
+- [Documentation](https://docs.tiquo.co/en/docs/api-reference/introduction)
+- [Getting started](https://docs.tiquo.co/en/docs/help/getting-started)
+- [Pricing](https://www.tiquo.co/en/pricing)
+- [Blog](https://www.tiquo.co/en/blog)
+- [Security](https://www.tiquo.co/en/security)
+- [Compliance](https://www.tiquo.co/en/security)
+- [Terms of service](https://www.tiquo.co/en/legals/terms-of-service)
+- [Privacy policy](https://www.tiquo.co/en/legals/privacy-policy)
+- [Status](https://status.tiquo.co/)
+
+## API Evangelist rating
+
+**Kin Score 55.5** — strong · rubric 0.27.0 · scored 2026-11-11
+
+| Facet | Score |
+|---|---|
+| Discoverability | 57.1 |
+| Contract quality | 45.6 |
+| Contract governance | 79.1 |
+| Operational transparency | 26.3 |
+| Developer ergonomics | 42.1 |
+| Access clarity | 75.8 |
+
+**Agent readiness 22.6** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | derived (partial credit) |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 32.1** — Payments
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/tiquo/](https://apis.io/providers/tiquo/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Tiquo Hospitality: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/tiquo/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
